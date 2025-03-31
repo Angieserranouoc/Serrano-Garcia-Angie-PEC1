@@ -7,13 +7,13 @@ Este repositorio contiene el trabajo realizado para la Prueba de Evaluación Con
 - `/data/`: Archivos de datos descargados desde Metabolomics Workbench (`.txt`).
 - `/codigo/`: Código R utilizado para la exploración y análisis del dataset (formato `.Rmd`).
 - `/objeto/`: Objeto `SummarizedExperiment` en formato `.Rda` que contiene la matriz de expresión y los metadatos integrados.
-- `Informe_PEC1.pdf`: Informe final generado a partir del análisis
+- `Serrano-Garcia-Angie-PEC1.pdf`: Informe final generado a partir del análisis 
 
 ## Dataset utilizado
 
 - **ID del estudio**: ST000915
 - **Fuente**: [Metabolomics Workbench](https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST000915)
-- **Descripción**: Perfiles metabolómicos en suero de pacientes con enfermedad de Alzheimer.
+- **Descripción**:Identificación de biomarcadores metabólicos asociados a diferentes etapas de la enfermedad por hígado graso no alcohólico (NAFLD)
 
 ## Autor
 
