@@ -15,6 +15,13 @@ Este repositorio contiene el trabajo realizado para la Prueba de Evaluación Con
 - **Fuente**: [Metabolomics Workbench](https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST000915)
 - **Descripción**:Identificación de biomarcadores metabólicos asociados a diferentes etapas de la enfermedad por hígado graso no alcohólico (NAFLD)
 
+## Metadatos utilizados
+
+Los metadatos utilizados en este análisis corresponden al diagnóstico clínico asociado a cada una de las muestras biológicas incluidas en el estudio ST000915. Estos diagnósticos incluyen: Normal, Steatosis, NASH (esteatohepatitis no alcohólica) y Cirrhosis.
+Esta información fue extraída de la primera fila del bloque de datos que inicia en la linea 263, del archivo `ST000915_AN001490.txt` y fue utilizada para construir la columna `Diagnosis` en el objeto `SummarizedExperiment`. Su inclusión permite analizar los perfiles metabólicos en función del estado clínico del paciente, facilitando la comparación entre grupos y la exploración de patrones relacionados con la progresión de la enfermedad hepática grasa no alcohólica (NAFLD).
+Los metadatos fueron fundamentales para contextualizar los resultados del análisis exploratorio, permitiendo observar cómo los perfiles metabólicos varían según el estado clínico. Aunque en esta PEC se utilizó únicamente la variable de diagnóstico, el archivo original contiene potencialmente otros factores que podrían enriquecer futuros análisis si se integran adecuadamente (por ejemplo, edad, sexo u otras variables clínicas).
+
+
 ## Autor
 
 Angie Yarlady Serrano García 
